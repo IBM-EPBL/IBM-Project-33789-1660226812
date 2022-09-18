@@ -27,13 +27,13 @@ Personal finance applications will ask users to add their expenses and based on 
 
 ### Features
 
-1)Track your expenses anywhere, anytime.
+1) Track your expenses anywhere, anytime.
 
-2)Seamlessly manage your money and budget without any financial paperwork. Just click and submit your invoices and expenditures. 
+2) Seamlessly manage your money and budget without any financial paperwork. Just click and submit your invoices and expenditures. 
 
-3)Access, submit, and approve invoices irrespective of time and location. 
+3) Access, submit, and approve invoices irrespective of time and location. 
 
-4)Avoid data loss by scanning your tickets and bills and saving in the app. 
+4) Avoid data loss by scanning your tickets and bills and saving in the app. 
 
 
 
