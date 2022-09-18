@@ -3,7 +3,7 @@
 
 College Name : A.V.C College of Engineering
 
-Team Members 
+Team Members:
 1) Monika T
 2) Falila banu H
 3) Mounika R
@@ -25,7 +25,7 @@ Personal finance applications will ask users to add their expenses and based on 
 
 ![architecture](https://user-images.githubusercontent.com/112888572/190886194-0dd3960f-6309-4073-98d3-b4d6e2718c9e.png)
 
-### Features
+### Features:
 
 1) Track your expenses anywhere, anytime.
 
