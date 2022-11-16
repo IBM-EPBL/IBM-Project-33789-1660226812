@@ -6,7 +6,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def log():
-  return render_template('LoginRegister.html', name="login")
+  return render_template('Login.html', name="login")
+
+@app.route("/signin")
+def signin():
+    return render_template("login.html")
 
 @app.route('/register',methods = ['POST', 'GET'])
 def register():
