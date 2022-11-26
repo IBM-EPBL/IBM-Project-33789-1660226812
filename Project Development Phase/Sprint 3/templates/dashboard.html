@@ -43,18 +43,18 @@
             <span class="links_name">Budget Limit</span>
           </a>
         </li>
-        <!--<li>
-          <a href="#">
+        <li>
+          <a href="/faq">
             <i class='bx bx-user' ></i>
-            <span class="links_name"></span>
+            <span class="links_name">FAQ</span>
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="#">
             <i class='bx bx-message' ></i>
             <span class="links_name">Messages</span>
           </a>
-        </li>-->
+        </li> -->
         
         <li class="log_out">
           <a href="/logout">
@@ -75,7 +75,6 @@
         <i class='bx bx-search' ></i>
       </div>
       <div class="profile-details">
-        <!--<img src="images/profile.jpg" alt="">-->
         <span class="admin_name">Login</span>
         <i class='bx bx-chevron-down' ></i>
       </div>
@@ -108,7 +107,7 @@
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Rewards</div>
-            <div class="number"></div>
+            <div class="number">Yes</div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text"></span>
@@ -195,6 +194,7 @@
               </tr>
             </tbody>
           </table>
+          <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Developed by Mounika Ravi</p>
         </div>
 
   
@@ -213,5 +213,19 @@ sidebarBtn.onclick = function() {
  </script>
 
 </body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "238a365b-6981-4baf-b761-3555f7f9f4c9", // The ID of this integration.
+    region: "jp-tok", // The region your integration is hosted in.
+    serviceInstanceID: "c371dcde-b75b-4b8f-aa33-abd1b615fa7d", // The ID of your service instance.
+    onLoad: function(instance) {
+ instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 </html>
 
