@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block body %} 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ PAGE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/faq.css') }}">
+    <!-- <link rel="stylesheet" href="ass2style1.css"> -->
+</head>
+<body>
+    
+        
+        <div class="main">
+    <main>
+        <h1 class="faq-heading">FAQ'S</h1>
+        <section class="faq-container">
+            <div class="faq-one">
+                <!-- faq question -->
+                <h1 class="faq-page">What is the best way to track your expenses?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>There's no perfect expense tracking plan that fits everyone. Each person has their own method-unless of course, you have no method at all. While some people may find looking at their monthly credit or debit card statements enough to keep their spending in check, others need something more hands on.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <!-- faq question -->
+                <h1 class="faq-page">What does an expense tracker app do?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Expense tracker apps connect to your bank account and/or credit cards to track and categorize your expenses, giving you a good idea of your purchasing behavior. This can help identify spending areas where you could make cuts.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+                <!-- faq question -->
+<h1 class="faq-page">Why is it important to keep track of your expenses?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>When you track your spending, you know where your money goes and you can ensure that your money is used wisely. Tracking your expenditures also allows you to understand why you're in debt and how you got there. This will then help you design a befitting strategy of getting out of debt.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-four">
+                <!-- faq question -->
+<h1 class="faq-page">What happens if you don't keep track of your expenses?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>If you don't track your expenses you will not know when your spending budget overruns. The business needs to look at it's financial realities. The simple knowledge gained by recording your expenses is enough to make a difference in your financial situation.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-five">
+                <!-- faq question -->
+<h1 class="faq-page">How do you maintain daily expenses?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Your first donation will take approximately 2 hours. 
+                        Return visits on average take about 90 minutes.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-six">
+                <!-- faq question -->
+<h1 class="faq-page">What are the 3 types of spending?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>That spending can be divided into three categories: mandatory, discretionary, and interest.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-seven">
+                <!-- faq question -->
+<h1 class="faq-page">How do I keep daily expenses recorded?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>A spending diary is a journal where you write down all your expenses for each day of the week. Keeping a spending diary is a great way to see how you are using your money. One of the many benefits that come from keeping a spending diary is that of spending les</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+</body>
+</html>
+
+
+{% endblock %}
+

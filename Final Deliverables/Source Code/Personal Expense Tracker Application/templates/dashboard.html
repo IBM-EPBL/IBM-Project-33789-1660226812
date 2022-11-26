@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/dashboardstyle.css') }}">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <div class="logo_name">Expense Tracker Application</div>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="/home">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="/add">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Add Expense</span>
+          </a>
+        </li>
+        <li>
+          <a href="/display">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">View reports</span>
+          </a>
+        </li>
+        <li>
+          <a href="/limit">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">Budget Limit</span>
+          </a>
+        </li>
+        <li>
+          <a href="/faq">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">FAQ</span>
+          </a>
+        </li>
+        <!-- <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Messages</span>
+          </a>
+        </li> -->
+        
+        <li class="log_out">
+          <a href="/logout">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <span class="admin_name">Login</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Your Expenses</div>
+            <div class="number">2500</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text"></span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Your Income</div>
+            <div class="number">5000</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text"></span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Rewards</div>
+            <div class="number">Yes</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text"></span>
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Limit Exceeded</div>
+            <div class="number">No</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text"></span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four' ></i>
+        </div>
+      </div>
+
+     
+         <br>
+         <br>
+        <div class="history_lists">
+        <div class="list1">
+          <div class="row">
+            <h4 align="center">History</h4>
+          </div>
+         <br>
+         <br>
+          <table class="center">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Dates</th>
+                <th>Type</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>2, Aug, 2022</td>
+                
+                <td>Premimum</td>
+                <td>$2000.00</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>29, July, 2022</td>
+                
+              
+                <td>Silver</td>
+                <td>$5,000.00</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>15, July, 2022</td>
+              
+                
+                <td>Startup</td>
+                <td>$3000.00</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>5, July, 2022</td>
+                
+                <td>Premimum</td>
+                <td>$7000.00</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>29, June, 2022</td>
+               
+                <td>Gold</td>
+                <td>$4000.00</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>28, June, 2022</td>
+               
+                <td>Premimum</td>
+                <td>$2000.00</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Developed by Mounika Ravi</p>
+        </div>
+
+  
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "238a365b-6981-4baf-b761-3555f7f9f4c9", // The ID of this integration.
+    region: "jp-tok", // The region your integration is hosted in.
+    serviceInstanceID: "c371dcde-b75b-4b8f-aa33-abd1b615fa7d", // The ID of your service instance.
+    onLoad: function(instance) {
+ instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</html>
+
