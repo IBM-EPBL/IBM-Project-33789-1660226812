@@ -10,7 +10,7 @@
   position: fixed;
   height: 100%;
   width: 240px;
-  background: #0A2558;
+  background:#4EA685;
   transition: all 0.5s ease;
 }
 .sidebar.active{
@@ -96,7 +96,7 @@
   left: 240px;
   z-index: 100;
   padding: 0 20px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px #4EA685;
   transition: all 0.5s ease;
 }
 .sidebar.active ~ .home-section nav{
@@ -164,13 +164,13 @@ nav .profile-details img{
 nav .profile-details .admin_name{
   font-size: 15px;
   font-weight: 500;
-  color: #333;
+  color: #4EA685;
   margin: 0 10px;
   white-space: nowrap;
 }
 nav .profile-details i{
   font-size: 25px;
-  color: #333;
+  color: #4EA685;
 }
 .home-section .home-content{
   position: relative;
@@ -192,7 +192,7 @@ nav .profile-details i{
   background: #fff;
   padding: 15px 14px;
   border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 10px #4EA685;
 }
 .overview-boxes .box-topic{
   font-size: 20px;
@@ -266,7 +266,7 @@ nav .profile-details i{
   padding: 20px 30px;
   margin: 0 20px;
   border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow:#4EA685 ;
 }
 .home-content .sales-boxes .sales-details{
   display: flex;
@@ -302,10 +302,10 @@ table td{
   padding: 20px 30px;
   margin: 0 20px 0 0;
   border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px #57B894;
 }
 
-}
+
 /* Responsive Media Query */
 @media (max-width: 1240px) {
   .sidebar{
